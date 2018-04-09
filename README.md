@@ -1,5 +1,5 @@
-# PVDSite
+3.a.d Connor McGlynn
 
-Connor McGlynn
+Providence city mock page.
 
 https://github.com/connormcglynn/PVDSite
