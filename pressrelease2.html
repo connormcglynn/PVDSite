@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>City of Providence</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://bit.ly/pvdfonts">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <style>
+        #menu-custom {
+            color: #BCBCBC;
+            font-family:Montserrat;
+            font-size:1.2em;
+        }
+        #menu-custom-link:hover {
+            color:white;
+        }
+        
+        a {
+            color:#3894ac;
+            transition: color .15s ease;
+            
+        }
+        a:hover {
+            color:#10475a;
+            text-decoration:none;
+        }
+        
+        #a-card {
+            box-shadow: 0 2px 4px rgba(0,0,0,.05);
+            color:black;
+        }
+        
+        #a-card:hover {
+            background-color:#F7F7F7;
+            text-decoration:none;
+            color:white;
+            
+        }
+        
+        .nav-custom {
+            padding:15px;
+            color:#777777;
+            border-bottom:5px solid #f7f7f7;
+            font-family:Montserrat;
+        }
+        
+        .nav-custom:hover {
+            padding:15px;
+            color:#777777;
+            border-bottom:5px solid #e56f00;
+        }
+        
+        .btn-hover:hover {
+    background-color: #FFF;
+    color:#e56f00;
+}
+        .btn-sharp {
+  padding: 20px 60px 20px 60px;
+  color:#FFF;
+  background-color:#e56f00;
+  border-radius:0;
+}
+
+.dropbtn {
+    background-color: #f7f7f7;
+    color: #777777;
+    font-size: 16px;
+    border-bottom: 0px solid white;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin:0;
+    padding:0px 30px 0 20px;
+}
+
+.dropdown {
+    padding-top:15px;
+    position: relative;
+    display: inline-block;
+}
+
+#whiteborder {
+    color:white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align:center;
+    margin-top:20px;
+    margin-left:-15px;
+}
+
+.dropdown-content a {
+    
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f7f7f7;
+}
+
+</style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom:2px solid #10475a;">
+            <div class="container">
+                <div class="col-sm">
+                    <p style="text-align:center; margin:0; color:orange; font-family:Montserrat;"><a href="index.html" style="color:#e56f00;">CITY OF PROVIDENCE</a></p>
+                </div>
+                <div class="col-sm">
+                    <center><a href="index.html"><img src="https://bit.ly/pvdlogo"></a></center>
+                </div>
+                <div class="col-sm">
+                    <p style="text-align:center; margin:0; font-family:Montserrat; color:#10475a;">MAYOR JORGE O. ELORZA</p>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav nav-fill bg-grey" style="padding-bottom: 0px; padding-right:40px; padding-left:40px; background: #f7f7f7; border-bottom: 1px solid #eaeaea; box-shadow: 0 2px 5px rgba(0,0,0,.1);">
+            <a style="color:#777777;" href="#"><div class="dropdown nav-custom">
+  <button class="dropbtn nav-item nav-link">CITY HALL</button>
+  <div class="dropdown-content">
+    <a href="#">I want to...</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">Mayor's Office</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">Departments</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">City Offices</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">Code of Ordinances</a>
+  </div></a>
+</div>
+            <a style="color:#777777;" href="#"><div class="dropdown nav-custom">
+  <button class="dropbtn nav-item nav-link">DOING BUSINESS</button>
+  <div class="dropdown-content">
+    <a href="#">Starting a Business</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">Construction</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">Running a Business</a>
+    <div class="dropdown-divider"></div>
+    <a href="#">Ethics</a>
+  </div></a>
+</div>
+            <a class="nav-item nav-link nav-custom" href="#">EVENTS</a>
+            <a class="nav-item nav-link nav-custom" href="#">NEWS</a>
+            <a class="nav-item nav-link nav-custom" href="#">PVD 311</a>
+            <a class="nav-item nav-link nav-custom" href="#">EXPLORE</a>
+        </nav>
+        <div class="container">
+            <br>
+        <h1 style="font-family:Montserrat; color:#10475a;">Mayor Elorza Announces Robust Advanced Paid Internship Program for Providence Youth</h1>
+        <div style="font-family: Source Sans Pro; color:#6a6a6a;">
+            <p><i>High school students encouraged to apply for work experiences supported and promoted by City partnership with private and non-profit sectors</i></p>
+        
+<p>April 2, 2018</p>
+<p>PROVIDENCE, RI - Mayor Jorge O. Elorza today joined Ward 3 City Councilor Nirva LaFortune, Economic Opportunity Director Brian Hull, President of the Atlantic Region of United Natural Foods, Inc. (UNFI) Chris Testa, The Mullings Group Managing Director Keno Mullings, Federal Hill House Executive Director Kimberly Fernandez and business and community partners at UNFI Distribution Services to announce a robust advanced paid internship program for Providence youth. In alignment with Mayor Elorza's mission to expand access to summer employment and career exploration opportunities, the City has partnered with the private and non-profit sectors to support and promote rigorous work experiences that will prepare and engage youth this summer.</p>
+<p>"Every Providence student should be prepared to succeed in the classroom and beyond," said Mayor Jorge O. Elorza. "These real life work experiences are incredibly valuable and will complement the learning that occurs in schools. With the help of Providence business leaders, we are opening doors and creating pathways of opportunities for our youth."</p>
+<p>According to a <a href="https://www.brookings.edu/wp-content/uploads/2016/07/Summer-Jobs-Ross-7-12-16.pdf">Brookings Institution study</a>, research shows that summer employment programs, including internships, can lead many positive outcomes, including reduced violence, lower incarceration rates, and improved academic outcomes for young people. Taking this into account, in summer 2017 the City more than doubled the amount of youth summer jobs offered and is seeking to expand even more in 2018.</p>
+<p>"UNFI has been Moving Food Forward for over 40 years, delivering healthier food options to people across North America. We are pioneers in organic, natural and specialty food distribution with over 500 associates at our two Rhode Island locations. Our Honest Green Market at our Providence headquarters makes it easy for our community to eat well without having to go very far," said President of the Atlantic Region for UNFI Chris Testa. "We're proud to serve the community even further by supporting the youth summer employment program. It's our mission to create a better, healthier future for generations to come. That includes ensuring success for the kids and young adults who live here," Testa added.</p>
+<p>The Advanced Internship Program will be implemented by the Office of Economic Opportunity and will enroll youth with some prior experience. These internships will enhance 21<sup>st</sup> century skills by focusing on communication, engagement in learning, critical thinking, perseverance and teamwork. Participants will engage in work readiness training, develop specific learning goals to improve those skills, be placed in a structured work experience with an employer, and be overseen by a trained supervisor.</p>
+<p>"Internships are an economical way for small businesses to build capacity for mid and long-term growth, while providing opportunities for young people who might not otherwise have them," said Keno Mullings, Managing Director of The Mullings Group. "As an intern, you learn the essence of your role by doing it and you build the skills and job history that employers look for in candidates. Mayor Elorza's vision for advanced internships, benefits youth, business and the economy of Providence and I'm honored to be a part of this work."</p>
+<p><strong>Youth and young adults who are interested in applying for the program or parents seeking more information can visit </strong><a href="http://www.pvdsummerjobs.com"><strong>www.pvdsummerjobs.com</strong></a><strong>. </strong>Residents can also contact the Mayor's Center for City Services (MCCS) at City Hall by dialing 3-1-1. <strong>The due date for applications is May 30, 2018.</strong></p>
+<p>"Youth all over the City need access to these types of opportunities to advance in their education and careers'" said Kimberly Fernandez, Executive Director of Federal Hill House. "At Federal Hill House, we partner with the City to create opportunities for youth to access their first or early work experience. The Mayor's  internship initiative is instrumental in creating opportunities for youth to learn important work readiness skills that prepare youth to lead productive lives and be more independence and self-sufficient."</p>
+<p>The City is encouraging local businesses and organizations to partner to provide work-based learning opportunities. Participating employers include: AAA, Armory Management Company, Center for Women and Enterprise (CWE), Cornish Associates, Crossroads Rhode Island, Darrow Everett LLP, Dorcas International Institute of Rhode Island (DIIRI), Evolis, Federal Hill House, Global View Communications (GVC), Goodwin-Bradley, Co., KITE Architects, Lifespan, Marriott Hotels, New England Medical Innovation Center (NEMIC), Greater Providence Chamber of Commerce( GPCC), Providence Foundation, Providence Promise, Rhode Island Foundation, Roger Williams Park Zoo (RWPZ), Stages of Freedom, The Mullings Group, United Natural Foods, Inc. (UNFI), and Ximedica.</p>
+</div></div>
+    </body>
+    <footer style="height:60px; margin-top:50px; background-color:#10475a; width:100%; text-align:center; padding:20px; font-family:Source Sans Pro; color:#FFFFFF; font-weight:600; font-size:1em; line-height:1.4375em;">Department Directory | Privacy Policy | SiteMap | &copy; City of Providence. All Rights Reserved.</footer>
+
+</html>
